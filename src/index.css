@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .btn-normal {
     width: 134px;
     height: 33px;
