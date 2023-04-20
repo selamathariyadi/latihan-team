@@ -1,0 +1,62 @@
+.hero,
+.hero-package {
+  margin: 80px 0 150px 0;
+  height: 70vh;
+  position: relative;
+}
+.hero .container,
+.hero-package .container {
+  align-content: center;
+}
+.hero .container .content-box,
+.hero-package .container .content-box {
+  margin-top: 100px;
+}
+.hero .container .content-box button,
+.hero-package .container .content-box button {
+  margin-bottom: 20px;
+  text-align: start;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: green;
+}
+.hero .container .content-box button i,
+.hero-package .container .content-box button i {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+}
+.hero .container .content-box button:hover,
+.hero .container .content-box i:hover,
+.hero-package .container .content-box button:hover,
+.hero-package .container .content-box i:hover {
+  color: #fd7b38;
+}
+.hero .container .banner img,
+.hero-package .container .banner img {
+  width: 380px;
+  height: 280px;
+  z-index: -1;
+  position: absolute;
+  background-position: center center;
+  -webkit-clip-path: polygon(100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+          clip-path: polygon(100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+  border: 2px solid white;
+  right: 80px;
+}
+.hero .container .banner1 img,
+.hero-package .container .banner1 img {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  right: 0;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+}/*# sourceMappingURL=style.css.map */

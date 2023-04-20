@@ -1,11 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Footer from "./component/Footer";
+import { Route, Routes } from "react-router-dom";
+import Discovery from "./component/Pages/Discovery";
 function App() {
   return (
     <>
-    <Footer/>
+   <Routes>
+    <Route path="/" Component = {Discovery}/>
+    <Route path="/Discovery" Component = {Discovery}/>
+   </Routes>
     </>
   );
 }
