@@ -1,10 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "./component/Footer";
 function App() {
   return (
-    <div>
-      <h1>Coba</h1>
-    </div>
+    <>
+    <Footer/>
+    </>
+    
   );
 }
 
