@@ -1,0 +1,9 @@
+.custom-nav a {
+    color: #8F8F8F;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custom-nav a:hover {
+    color: #0C5B21;
+}

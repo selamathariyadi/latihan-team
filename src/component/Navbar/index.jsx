@@ -1,9 +1,32 @@
 import React from 'react'
 
-function Navbar() {
+import { Container, Navbar,Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+
+import '../Navbar/index.css'
+import Logo from '../../asset/images/navbar-travelark.png'
+function Navbarr() {
   return (
-    <div>Navbar</div>
+   <>
+    <Navbar expand="lg" className='mt-2'>
+      <Container>
+        <Navbar.Brand href="#home"><img src={Logo} alt="TravelArk"  className='me-3'/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto custom-nav">
+            <Nav.Link href="#home" className='px-3'>Disovery</Nav.Link>
+            <Nav.Link href="#link" className='px-3'>Destination</Nav.Link>
+            <Nav.Link href="#home" className='px-3'>Package</Nav.Link>
+            <Nav.Link href="#link" className='px-3'>About Us</Nav.Link>
+          </Nav>
+          <Link>
+          <button className='btn-normal'>Register</button>
+          </Link>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+   </>
   )
 }
 
-export default Navbar
+export default Navbarr
