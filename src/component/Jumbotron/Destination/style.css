@@ -1,0 +1,119 @@
+.hero-destination {
+  margin-top: 120px;
+}
+.hero-destination .container .left-side {
+  margin-top: 100px;
+}
+.hero-destination .container .left-side p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.hero-destination .container .left-side button {
+  color: green;
+  margin-bottom: 20px;
+  text-align: start;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.hero-destination .container .left-side button i {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+}
+.hero-destination .container .left-side button:hover,
+.hero-destination .container .left-side i:hover {
+  color: #fd7b38;
+}
+.hero-destination .container .right-side .border1 {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  width: 566px;
+  height: 237px;
+  top: 220.85px;
+  border: 12px solid #FD7B38;
+  z-index: -1;
+}
+.hero-destination .container .right-side .border2 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 150px;
+  border: 11px solid #FFFFFF;
+  z-index: 1;
+  right: 0;
+  transform: rotate(-7.08deg);
+}
+.hero-destination .container .right-side .border2 img {
+  width: 300px;
+  height: 172px;
+}
+.hero-destination .container .right-side .border3 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 120.9px;
+  border: 11px solid #FFFFFF;
+  z-index: 2;
+  right: 0;
+  transform: rotate(4.19deg);
+  margin-right: 270px;
+}
+.hero-destination .container .right-side .border3 img {
+  width: 220px;
+  height: 272px;
+}
+.hero-destination .container .right-side .border4 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 300.05px;
+  border: 11px solid #FFFFFF;
+  z-index: 3;
+  right: 0;
+  transform: rotate(-7.08deg);
+}
+.hero-destination .container .right-side .border4 img {
+  width: 350px;
+  height: 172px;
+}
+
+@media screen and (max-width: 1125px) {
+  .container .right-side {
+    margin-top: 1000px;
+  }
+  .container .right-side .border1 {
+    display: none;
+  }
+  .container .right-side .border2 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    border: 11px solid #FFFFFF;
+    z-index: 1;
+    right: 0;
+    transform: none;
+  }
+  .container .right-side .border2 img {
+    width: 300px;
+    height: 172px;
+  }
+  .container .right-side .border3 img {
+    width: 250px;
+    height: 200px;
+  }
+  .container .right-side .border4 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 300.05px;
+    border: 11px solid #FFFFFF;
+    z-index: 3;
+    right: 0;
+    transform: none;
+  }
+  .container .right-side .border4 img {
+    width: 350px;
+    height: 172px;
+  }
+}/*# sourceMappingURL=style.css.map */
