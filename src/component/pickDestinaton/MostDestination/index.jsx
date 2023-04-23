@@ -29,29 +29,29 @@ function Mostpick() {
             </Col>
         </Row>
         <Row className='justify-content-center align-items-center mt-3 mx-auto'>
-       <Col lg={3} md={6}>
-        <div className='img-box mt-2'>
+       <Col xs={6} lg={3} md={6}>
+        <div className='img-box mt-2 px-3'>
             <img src={nusaImage} alt="Nusa" />
             <h2>Nusa Penida</h2>
             <p>Kelungkung, Bali</p>
         </div>
         </Col>
-        <Col lg={3} md={6}>
-        <div className='img-box mt-2'>
+        <Col xs={6} lg={3} md={6}>
+        <div className='img-box mt-2 px-3'>
             <img src={borobudurImage} alt="Borobudur" />
             <h2>Candi Bodobudur</h2>
             <p>Magelang, Jawa Tengah</p>
         </div>
         </Col>
-        <Col lg={3} md={6}>
-        <div className='img-box mt-2'>
+        <Col xs={6} lg={3} md={6}>
+        <div className='img-box mt-2 px-3'>
             <img src={bromoImage} alt="Bromo" />
             <h2>Gunung Bromo</h2>
             <p>Tengger, Jawa Timur</p>
         </div>
         </Col>
-        <Col lg={3} md={6}>
-        <div className='img-box mt-2'>
+        <Col xs={6} lg={3} md={6}>
+        <div className='img-box mt-2 px-3'>
             <img src={komodoImage} alt="Komodo" />
             <h2>Pulau Komodo</h2>
             <p>Nusa Tenggara Timur</p>

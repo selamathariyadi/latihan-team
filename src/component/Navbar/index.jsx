@@ -15,7 +15,7 @@ function Navbarr() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto custom-nav">
             <Nav.Link href="/discovery" className='px-3'>Disovery</Nav.Link>
-            <Nav.Link href="#link" className='px-3'>Destination</Nav.Link>
+            <Nav.Link href="/destination" className='px-3'>Destination</Nav.Link>
             <Nav.Link href="#home" className='px-3'>Package</Nav.Link>
             <Nav.Link href="#link" className='px-3'>About Us</Nav.Link>
           </Nav>

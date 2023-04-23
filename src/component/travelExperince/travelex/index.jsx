@@ -15,14 +15,14 @@ function Travelex() {
            </Col>
            <Col>
            <Row>
-            <Col className='custom-marginbox d-flex justify-content-between align-items-center ms-5' md={6}>
-                <Col md={3} className=''>
+            <Col className='custom-marginbox d-flex justify-content-between align-items-center ms-5' xs={12} md={6}>
+                <Col xs={6} md={3} className=''>
                 <div className='travel-box'>
                 <span><i></i>Our Ethics</span>
                 <p>Prioritizing Happy Traveling, Upholding Culture</p>
                 </div>
                 </Col>
-                <Col md={3} className='ps-5'>
+                <Col xs={6} md={3} className='ps-5'>
                 <div className='travel-box'>
                 <span><i></i>Our Ethics</span>
                 <p>Prioritizing Happy Traveling, Upholding Culture</p>
