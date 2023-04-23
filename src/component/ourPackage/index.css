@@ -1,0 +1,46 @@
+.our-tittle h1 {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 43px;
+    color: #0C5B21;
+}
+
+.our-tittle p {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.box-package {
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+}
+
+.title-package span {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    font-style: normal;
+}
+
+.title-package h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.color-text {
+    color: #FD7B38;
+}
+
+.color-bg {
+    background: #1A2C21;
+}
+
+.color-bg-2 {
+    background-color: #0C5B21;
+}
