@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container,Row } from 'react-bootstrap'
 
 import '../ourPackage/index.css'
+import { Link } from 'react-router-dom'
 
 
 function ourPackage() {
@@ -18,6 +19,7 @@ function ourPackage() {
         </Row>
         <Row className='g-4'>
             <Col xs={12} md={6}>
+            <Link to={'/Privatetrip'} >
                 <div className='box-package color-bg px-5 py-3'>
                     <div className='title-package'>
                     <span className='color-text'>1st Package</span>
@@ -27,8 +29,10 @@ function ourPackage() {
                         gems and off-the-beaten-path locations that you won't find in any guidebook.
                     </p>
                 </div>
+                </Link>
             </Col>
             <Col xs={12} md={6}>
+                <Link to='/OpenTrip'>
                 <div className='box-package color-bg-2 px-5 py-3'>
                     <div className='title-package'>
                     <span>2nd Package</span>
@@ -38,6 +42,7 @@ function ourPackage() {
                         travelers from all over the world, creating lifelong friendships and unforgettable memories. 
                     </p>
                 </div>
+                </Link>
             </Col>
         </Row>
     </Container>
