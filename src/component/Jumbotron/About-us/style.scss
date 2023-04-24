@@ -1,0 +1,50 @@
+.aboutus {
+    margin-top: 120px;
+    .container {
+        .left-side {
+            margin-top: 100px;
+            p {
+                text-align: justify;
+            }
+            button {
+                margin-bottom: 20px;
+                text-align: start;
+                padding-left: 0;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                color: green;
+                i {
+                    width: 20px;
+                    height: 20px;
+                    top: 2px;
+                    left: 2px;
+                }
+            }
+            button:hover,
+            i:hover {
+                color: #fd7b38;
+            }
+        }
+        .right-side {
+            .border1 {
+                box-sizing: border-box;
+                position: absolute;
+                width: 366px;
+                height: 337px;
+                top: 220.85px;
+                border: 10px solid #FD7B38;
+                z-index: -1;
+                right: 200px;
+            }
+            .border2 {
+                box-sizing: border-box;
+                top: 150px;
+                z-index: 1;
+                right: 180px;
+                position: absolute;
+            }
+        }
+    }
+}

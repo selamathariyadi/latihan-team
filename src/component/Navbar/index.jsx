@@ -17,7 +17,7 @@ function Navbarr() {
             <Nav.Link href="/discovery" className='px-3'>Disovery</Nav.Link>
             <Nav.Link href="/destination" className='px-3'>Destination</Nav.Link>
             <Nav.Link href="#home" className='px-3'>Package</Nav.Link>
-            <Nav.Link href="#link" className='px-3'>About Us</Nav.Link>
+            <Nav.Link href="/Aboutus" className='px-3'>About Us</Nav.Link>
           </Nav>
           <Link>
           <button className='btn-normal'>Register</button>
